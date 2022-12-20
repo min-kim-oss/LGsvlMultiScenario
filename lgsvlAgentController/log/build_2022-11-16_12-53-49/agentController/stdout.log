@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found lgsvl_msgs: 0.0.4 (/opt/ros/foxy/share/lgsvl_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/oem/lgsvlAgentController_v2/build/agentController
+[35m[1mScanning dependencies of target AgentController[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/AgentController.dir/src/agentController.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library libAgentController.so[0m
+[ 25%] Built target AgentController
+[35m[1mScanning dependencies of target AgentController_node[0m
+[35m[1mScanning dependencies of target P2AgentController[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/AgentController_node.dir/src/agentController_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/P2AgentController.dir/src/p2AgentController.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable AgentController_node[0m
+[ 62%] Built target AgentController_node
+[ 75%] [32m[1mLinking CXX shared library libP2AgentController.so[0m
+[ 75%] Built target P2AgentController
+[35m[1mScanning dependencies of target P2AgentController_node[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/P2AgentController_node.dir/src/p2AgentController_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable P2AgentController_node[0m
+[100%] Built target P2AgentController_node
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/lib/agentController/libAgentController.so
+-- Set runtime path of "/home/oem/lgsvlAgentController_v2/install/agentController/lib/agentController/libAgentController.so" to ""
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/lib/agentController/AgentController_node
+-- Set runtime path of "/home/oem/lgsvlAgentController_v2/install/agentController/lib/agentController/AgentController_node" to ""
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/lib/agentController/libP2AgentController.so
+-- Set runtime path of "/home/oem/lgsvlAgentController_v2/install/agentController/lib/agentController/libP2AgentController.so" to ""
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/lib/agentController/P2AgentController_node
+-- Set runtime path of "/home/oem/lgsvlAgentController_v2/install/agentController/lib/agentController/P2AgentController_node" to ""
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/ament_index/resource_index/package_run_dependencies/agentController
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/ament_index/resource_index/parent_prefix_path/agentController
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/environment/ament_prefix_path.sh
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/environment/ament_prefix_path.dsv
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/environment/path.sh
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/environment/path.dsv
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/local_setup.bash
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/local_setup.sh
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/local_setup.zsh
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/local_setup.dsv
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/package.dsv
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/ament_index/resource_index/packages/agentController
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/cmake/agentControllerConfig.cmake
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/cmake/agentControllerConfig-version.cmake
+-- Installing: /home/oem/lgsvlAgentController_v2/install/agentController/share/agentController/package.xml

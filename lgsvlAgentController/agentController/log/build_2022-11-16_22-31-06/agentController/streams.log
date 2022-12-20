@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/oem/lgsvlAgentController_v2/agentController/build/agentController': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/agentController/build/agentController -- -j20 -l20
+[0.115s] [35m[1mScanning dependencies of target AgentController[0m
+[0.170s] [ 12%] [32mBuilding CXX object CMakeFiles/AgentController.dir/src/agentController.cpp.o[0m
+[1.510s] [01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:[m[K In constructor ‘[01m[KAgentController::AgentController(const rclcpp::NodeOptions&)[m[K’:
+[1.510s] [01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[KrKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+[1.510s]    26 |   [01;31m[KrKey_hitCount[m[K = 0;
+[1.510s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.511s]       |   [32m[KuKey_hitCount[m[K
+[1.511s] [01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[KlKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+[1.511s]    27 |   [01;31m[KlKey_hitCount[m[K = 0;
+[1.511s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.511s]       |   [32m[KuKey_hitCount[m[K
+[1.518s] [01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:[m[K In member function ‘[01m[Kvoid AgentController::hitRecoverer()[m[K’:
+[1.519s] [01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:58:8:[m[K [01;31m[Kerror: [m[K‘[01m[KrKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+[1.519s]    58 |     if([01;31m[KrKey_hitCount[m[K > 0)
+[1.519s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.519s]       |        [32m[KuKey_hitCount[m[K
+[1.520s] [01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:68:8:[m[K [01;31m[Kerror: [m[K‘[01m[KlKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+[1.520s]    68 |     if([01;31m[KlKey_hitCount[m[K > 0)
+[1.520s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.520s]       |        [32m[KuKey_hitCount[m[K
+[2.982s] make[2]: *** [CMakeFiles/AgentController.dir/build.make:63: CMakeFiles/AgentController.dir/src/agentController.cpp.o] Error 1
+[2.984s] make[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/AgentController.dir/all] Error 2
+[2.984s] make: *** [Makefile:141: all] Error 2
+[2.988s] Invoked command in '/home/oem/lgsvlAgentController_v2/agentController/build/agentController' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/agentController/build/agentController -- -j20 -l20

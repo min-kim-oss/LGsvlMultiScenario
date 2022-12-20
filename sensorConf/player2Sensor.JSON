@@ -1,0 +1,50 @@
+[
+  {
+    "params": {
+      "Topic": "/player2/vehicle_control_cmd"
+    },
+    "name": "Autoware Car Control",
+    "parent": null,
+    "pluginId": "a5696615-d3e2-45e9-afa3-9b5ae7359e02",
+    "sortKey": 0,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1",
+        "Development"
+      ],
+      "id": "a5696615-d3e2-45e9-afa3-9b5ae7359e02",
+      "name": "LGSVL Control Sensor",
+      "type": "LGSVLControlSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "Example template of a sensor for vehicle Control information.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/02e462ce-c1ad-448d-9c24-df8a05a7c09a",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "LGSVLControlSensor"
+  }
+]

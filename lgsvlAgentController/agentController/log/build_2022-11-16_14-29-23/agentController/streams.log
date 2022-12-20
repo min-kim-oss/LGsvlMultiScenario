@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/oem/lgsvlAgentController_v2/agentController/build/agentController': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/agentController/build/agentController -- -j20 -l20
+[0.158s] [ 25%] Built target AgentController
+[0.206s] [ 50%] Built target P2AgentController
+[0.220s] [ 75%] Built target AgentController_node
+[0.255s] [100%] Built target P2AgentController_node
+[0.277s] Invoked command in '/home/oem/lgsvlAgentController_v2/agentController/build/agentController' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/agentController/build/agentController -- -j20 -l20
+[0.371s] Invoking command in '/home/oem/lgsvlAgentController_v2/agentController/build/agentController': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/oem/lgsvlAgentController_v2/agentController/build/agentController
+[0.383s] -- Install configuration: "RelWithDebInfo"
+[0.383s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/libAgentController.so
+[0.383s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/AgentController_node
+[0.384s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/libP2AgentController.so
+[0.384s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/P2AgentController_node
+[0.385s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/ament_index/resource_index/package_run_dependencies/agentController
+[0.385s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/ament_index/resource_index/parent_prefix_path/agentController
+[0.385s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/environment/ament_prefix_path.sh
+[0.385s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/environment/ament_prefix_path.dsv
+[0.386s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/environment/path.sh
+[0.387s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/environment/path.dsv
+[0.389s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/local_setup.bash
+[0.391s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/local_setup.sh
+[0.392s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/local_setup.zsh
+[0.392s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/local_setup.dsv
+[0.392s] -- Installing: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/package.dsv
+[0.393s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/ament_index/resource_index/packages/agentController
+[0.393s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/cmake/agentControllerConfig.cmake
+[0.393s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/cmake/agentControllerConfig-version.cmake
+[0.393s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/package.xml
+[0.393s] Invoked command in '/home/oem/lgsvlAgentController_v2/agentController/build/agentController' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/oem/lgsvlAgentController_v2/agentController/build/agentController

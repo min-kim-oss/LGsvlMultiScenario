@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader -- -j20 -l20
+[0.111s] [35m[1mScanning dependencies of target KBDReader[0m
+[0.151s] [ 25%] [32mBuilding CXX object CMakeFiles/KBDReader.dir/src/kbdReader.cpp.o[0m
+[4.279s] [ 50%] [32m[1mLinking CXX shared library libKBDReader.so[0m
+[4.451s] [ 50%] Built target KBDReader
+[4.516s] [ 75%] [32m[1mLinking CXX executable KBDReader_node[0m
+[4.647s] [100%] Built target KBDReader_node
+[4.667s] Invoked command in '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader -- -j20 -l20
+[4.747s] Invoking command in '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader
+[4.759s] -- Install configuration: "RelWithDebInfo"
+[4.760s] -- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/lib/KBDReader/libKBDReader.so
+[4.763s] -- Set runtime path of "/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/lib/KBDReader/libKBDReader.so" to ""
+[4.763s] -- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/lib/KBDReader/KBDReader_node
+[4.764s] -- Set runtime path of "/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/lib/KBDReader/KBDReader_node" to ""
+[4.764s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/ament_index/resource_index/package_run_dependencies/KBDReader
+[4.764s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/ament_index/resource_index/parent_prefix_path/KBDReader
+[4.765s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/environment/ament_prefix_path.sh
+[4.765s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/environment/ament_prefix_path.dsv
+[4.765s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/environment/path.sh
+[4.765s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/environment/path.dsv
+[4.765s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/local_setup.bash
+[4.765s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/local_setup.sh
+[4.766s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/local_setup.zsh
+[4.767s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/local_setup.dsv
+[4.767s] -- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/package.dsv
+[4.769s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/ament_index/resource_index/packages/KBDReader
+[4.769s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/cmake/KBDReaderConfig.cmake
+[4.769s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/cmake/KBDReaderConfig-version.cmake
+[4.770s] -- Up-to-date: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/package.xml
+[4.771s] Invoked command in '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader

@@ -1,0 +1,4 @@
+source;share/agentController/local_setup.bash
+source;share/agentController/local_setup.dsv
+source;share/agentController/local_setup.sh
+source;share/agentController/local_setup.zsh

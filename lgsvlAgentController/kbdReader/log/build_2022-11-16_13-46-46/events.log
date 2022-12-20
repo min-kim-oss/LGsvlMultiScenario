@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000271] (KBDReader) JobQueued: {'identifier': 'KBDReader', 'dependencies': OrderedDict()}
+[0.000982] (KBDReader) JobStarted: {'identifier': 'KBDReader'}
+[0.016418] (KBDReader) JobProgress: {'identifier': 'KBDReader', 'progress': 'cmake'}
+[0.016907] (KBDReader) Command: {'cmd': ['/usr/bin/cmake', '/home/oem/lgsvlAgentController_v2/kbdReader', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_INSTALL_PREFIX=/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader'], 'cwd': '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ADE_IMAGE_ADE_FOXY_COMMIT_TAG', ''), ('ADE_IMAGE_ADE_FOXY_COMMIT_SHA', '1641aaf554d9db02aa000e2062a92c78af651a31'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'oem'), ('USER_ID', '1000'), ('HOSTNAME', 'ade'), ('ADE_IMAGE_ADE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/ade-foxy:master'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib64:/opt/lgsvl/simulator_Data/Plugins'), ('HOME', '/home/oem'), ('OLDPWD', '/home/oem/lgsvlAgentController_v2'), ('ADE_HOME_HOSTPATH', '/home/oem/adehome'), ('ROS_PYTHON_VERSION', '3'), ('GIT_PS1_SHOWUNTRACKEDFILES', '1'), ('COLORTERM', 'truecolor'), ('GROUP', 'oem'), ('GIT_PS1_SHOWSTASHSTATE', '1'), ('GIT_PS1_SHOWCOLORHINTS', '1'), ('TIMEZONE', 'Asia/Seoul'), ('COLCON_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/install:/home/oem/lgsvlAgentController/install:/home/oem/lgsvlAgentController_v2/kbdReader/install'), ('GROUP_ID', '1000'), ('ADE_CLI_VERSION', '4.4.0'), ('ROS_DISTRO', 'foxy'), ('ADE_IMAGE_FOXY_COMMIT_SHA', '16e087faa219fbbb708c31df636d57021f98fc40'), ('ADE_IMAGE_FOXY_COMMIT_TAG', '2021.3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,display'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_TAG', ''), ('TERM', 'xterm-256color'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_SHA', 'b5fb77ce958db1a3d7b16fda53abf4c0168fc921'), ('ADE_IMAGE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/ade-lgsvl/foxy:2021.3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/lgsvl:/snap/bin'), ('GIT_PS1_SHOWUPSTREAM', 'verbose'), ('GIT_PS1_SHOWDIRTYSTATE', '1'), ('ADE_IMAGE_BINARY_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/binary-foxy:master'), ('VIDEO_GROUP_ID', '44'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('TILIX_ID', '8c6ed36a-23e6-4157-92fe-3fe787748c76'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/oem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/oem/lgsvlAgentController/install/lgsvlAgentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController_v2/install/agentController:/home/oem/lgsvlAgentController_v2/install/KBDReader:/opt/ros/foxy'), ('PROMPT_COMMAND', '__git_ps1 \'${VIRTUAL_ENV:+($(basename "$VIRTUAL_ENV")) }\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\' \'$ \''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PS1_DESCRIBE_STYLE', 'contains'), ('PWD', '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/oem/lgsvlAgentController/install/lgsvlAgentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController_v2/install/agentController:/home/oem/lgsvlAgentController_v2/install/KBDReader:/opt/ros/foxy')]), 'shell': False}
+[0.099828] (-) TimerEvent: {}
+[0.120173] (KBDReader) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.200071] (-) TimerEvent: {}
+[0.219972] (KBDReader) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.230375] (KBDReader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300211] (-) TimerEvent: {}
+[0.354424] (KBDReader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.356810] (KBDReader) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400415] (-) TimerEvent: {}
+[0.495632] (KBDReader) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500506] (-) TimerEvent: {}
+[0.517947] (KBDReader) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.518455] (KBDReader) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.520572] (KBDReader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.600647] (-) TimerEvent: {}
+[0.657011] (KBDReader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.659320] (KBDReader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700756] (-) TimerEvent: {}
+[0.780054] (KBDReader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.796816] (KBDReader) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.797270] (KBDReader) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.800496] (KBDReader) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.800814] (-) TimerEvent: {}
+[0.840201] (KBDReader) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.840511] (KBDReader) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.900949] (-) TimerEvent: {}
+[1.001378] (-) TimerEvent: {}
+[1.029190] (KBDReader) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[1.031082] (KBDReader) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.071616] (KBDReader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.078075] (KBDReader) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.101492] (-) TimerEvent: {}
+[1.201900] (-) TimerEvent: {}
+[1.228545] (KBDReader) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.284104] (KBDReader) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.302089] (-) TimerEvent: {}
+[1.390401] (KBDReader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402246] (-) TimerEvent: {}
+[1.436641] (KBDReader) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.437673] (KBDReader) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.438381] (KBDReader) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.502384] (-) TimerEvent: {}
+[1.575191] (KBDReader) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.575610] (KBDReader) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.602505] (-) TimerEvent: {}
+[1.692013] (KBDReader) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.692287] (KBDReader) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.702585] (-) TimerEvent: {}
+[1.802944] (-) TimerEvent: {}
+[1.816905] (KBDReader) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.817286] (KBDReader) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.903107] (-) TimerEvent: {}
+[1.966444] (KBDReader) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.969284] (KBDReader) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.003294] (-) TimerEvent: {}
+[2.103795] (-) TimerEvent: {}
+[2.173613] (KBDReader) StderrLine: {'line': b'WARNING: Package name "KBDReader" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[2.192265] (KBDReader) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.202205] (KBDReader) StdoutLine: {'line': b'-- Generating done\n'}
+[2.203443] (KBDReader) StdoutLine: {'line': b'-- Build files have been written to: /home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader\n'}
+[2.203856] (-) TimerEvent: {}
+[2.211380] (KBDReader) CommandEnded: {'returncode': 0}
+[2.212470] (KBDReader) JobProgress: {'identifier': 'KBDReader', 'progress': 'build'}
+[2.213278] (KBDReader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader', '--', '-j20', '-l20'], 'cwd': '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ADE_IMAGE_ADE_FOXY_COMMIT_TAG', ''), ('ADE_IMAGE_ADE_FOXY_COMMIT_SHA', '1641aaf554d9db02aa000e2062a92c78af651a31'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'oem'), ('USER_ID', '1000'), ('HOSTNAME', 'ade'), ('ADE_IMAGE_ADE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/ade-foxy:master'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib64:/opt/lgsvl/simulator_Data/Plugins'), ('HOME', '/home/oem'), ('OLDPWD', '/home/oem/lgsvlAgentController_v2'), ('ADE_HOME_HOSTPATH', '/home/oem/adehome'), ('ROS_PYTHON_VERSION', '3'), ('GIT_PS1_SHOWUNTRACKEDFILES', '1'), ('COLORTERM', 'truecolor'), ('GROUP', 'oem'), ('GIT_PS1_SHOWSTASHSTATE', '1'), ('GIT_PS1_SHOWCOLORHINTS', '1'), ('TIMEZONE', 'Asia/Seoul'), ('COLCON_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/install:/home/oem/lgsvlAgentController/install:/home/oem/lgsvlAgentController_v2/kbdReader/install'), ('GROUP_ID', '1000'), ('ADE_CLI_VERSION', '4.4.0'), ('ROS_DISTRO', 'foxy'), ('ADE_IMAGE_FOXY_COMMIT_SHA', '16e087faa219fbbb708c31df636d57021f98fc40'), ('ADE_IMAGE_FOXY_COMMIT_TAG', '2021.3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,display'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_TAG', ''), ('TERM', 'xterm-256color'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_SHA', 'b5fb77ce958db1a3d7b16fda53abf4c0168fc921'), ('ADE_IMAGE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/ade-lgsvl/foxy:2021.3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/lgsvl:/snap/bin'), ('GIT_PS1_SHOWUPSTREAM', 'verbose'), ('GIT_PS1_SHOWDIRTYSTATE', '1'), ('ADE_IMAGE_BINARY_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/binary-foxy:master'), ('VIDEO_GROUP_ID', '44'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('TILIX_ID', '8c6ed36a-23e6-4157-92fe-3fe787748c76'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/oem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/oem/lgsvlAgentController/install/lgsvlAgentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController_v2/install/agentController:/home/oem/lgsvlAgentController_v2/install/KBDReader:/opt/ros/foxy'), ('PROMPT_COMMAND', '__git_ps1 \'${VIRTUAL_ENV:+($(basename "$VIRTUAL_ENV")) }\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\' \'$ \''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PS1_DESCRIBE_STYLE', 'contains'), ('PWD', '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/oem/lgsvlAgentController/install/lgsvlAgentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController_v2/install/agentController:/home/oem/lgsvlAgentController_v2/install/KBDReader:/opt/ros/foxy')]), 'shell': False}
+[2.299470] (KBDReader) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target KBDReader\x1b[0m\n'}
+[2.303989] (-) TimerEvent: {}
+[2.346738] (KBDReader) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/KBDReader.dir/src/kbdReader.cpp.o\x1b[0m\n'}
+[2.404133] (-) TimerEvent: {}
+[2.504650] (-) TimerEvent: {}
+[2.605096] (-) TimerEvent: {}
+[2.705497] (-) TimerEvent: {}
+[2.805983] (-) TimerEvent: {}
+[2.906483] (-) TimerEvent: {}
+[3.006959] (-) TimerEvent: {}
+[3.107466] (-) TimerEvent: {}
+[3.207890] (-) TimerEvent: {}
+[3.308349] (-) TimerEvent: {}
+[3.408826] (-) TimerEvent: {}
+[3.509348] (-) TimerEvent: {}
+[3.609849] (-) TimerEvent: {}
+[3.710362] (-) TimerEvent: {}
+[3.810878] (-) TimerEvent: {}
+[3.911416] (-) TimerEvent: {}
+[4.011920] (-) TimerEvent: {}
+[4.112449] (-) TimerEvent: {}
+[4.212909] (-) TimerEvent: {}
+[4.313364] (-) TimerEvent: {}
+[4.413816] (-) TimerEvent: {}
+[4.514324] (-) TimerEvent: {}
+[4.614835] (-) TimerEvent: {}
+[4.715292] (-) TimerEvent: {}
+[4.815791] (-) TimerEvent: {}
+[4.916299] (-) TimerEvent: {}
+[5.016822] (-) TimerEvent: {}
+[5.117281] (-) TimerEvent: {}
+[5.217735] (-) TimerEvent: {}
+[5.318195] (-) TimerEvent: {}
+[5.418688] (-) TimerEvent: {}
+[5.519199] (-) TimerEvent: {}
+[5.619665] (-) TimerEvent: {}
+[5.720152] (-) TimerEvent: {}
+[5.820633] (-) TimerEvent: {}
+[5.921086] (-) TimerEvent: {}
+[6.021505] (-) TimerEvent: {}
+[6.122001] (-) TimerEvent: {}
+[6.222501] (-) TimerEvent: {}
+[6.323008] (-) TimerEvent: {}
+[6.423470] (-) TimerEvent: {}
+[6.468501] (KBDReader) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libKBDReader.so\x1b[0m\n'}
+[6.523681] (-) TimerEvent: {}
+[6.624140] (-) TimerEvent: {}
+[6.635075] (KBDReader) StdoutLine: {'line': b'[ 50%] Built target KBDReader\n'}
+[6.655914] (KBDReader) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target KBDReader_node\x1b[0m\n'}
+[6.724279] (-) TimerEvent: {}
+[6.724956] (KBDReader) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/KBDReader_node.dir/src/kbdReader_node.cpp.o\x1b[0m\n'}
+[6.824498] (-) TimerEvent: {}
+[6.924949] (-) TimerEvent: {}
+[7.025405] (-) TimerEvent: {}
+[7.125907] (-) TimerEvent: {}
+[7.226363] (-) TimerEvent: {}
+[7.326804] (-) TimerEvent: {}
+[7.427257] (-) TimerEvent: {}
+[7.527755] (-) TimerEvent: {}
+[7.628256] (-) TimerEvent: {}
+[7.728746] (-) TimerEvent: {}
+[7.829193] (-) TimerEvent: {}
+[7.929636] (-) TimerEvent: {}
+[8.030081] (-) TimerEvent: {}
+[8.130572] (-) TimerEvent: {}
+[8.231082] (-) TimerEvent: {}
+[8.331597] (-) TimerEvent: {}
+[8.432093] (-) TimerEvent: {}
+[8.532573] (-) TimerEvent: {}
+[8.633009] (-) TimerEvent: {}
+[8.733421] (-) TimerEvent: {}
+[8.757176] (KBDReader) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable KBDReader_node\x1b[0m\n'}
+[8.833562] (-) TimerEvent: {}
+[8.898577] (KBDReader) StdoutLine: {'line': b'[100%] Built target KBDReader_node\n'}
+[8.922047] (KBDReader) CommandEnded: {'returncode': 0}
+[8.933750] (-) TimerEvent: {}
+[8.978260] (KBDReader) JobProgress: {'identifier': 'KBDReader', 'progress': 'install'}
+[9.001399] (KBDReader) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader'], 'cwd': '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ADE_IMAGE_ADE_FOXY_COMMIT_TAG', ''), ('ADE_IMAGE_ADE_FOXY_COMMIT_SHA', '1641aaf554d9db02aa000e2062a92c78af651a31'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'oem'), ('USER_ID', '1000'), ('HOSTNAME', 'ade'), ('ADE_IMAGE_ADE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/ade-foxy:master'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib64:/opt/lgsvl/simulator_Data/Plugins'), ('HOME', '/home/oem'), ('OLDPWD', '/home/oem/lgsvlAgentController_v2'), ('ADE_HOME_HOSTPATH', '/home/oem/adehome'), ('ROS_PYTHON_VERSION', '3'), ('GIT_PS1_SHOWUNTRACKEDFILES', '1'), ('COLORTERM', 'truecolor'), ('GROUP', 'oem'), ('GIT_PS1_SHOWSTASHSTATE', '1'), ('GIT_PS1_SHOWCOLORHINTS', '1'), ('TIMEZONE', 'Asia/Seoul'), ('COLCON_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/install:/home/oem/lgsvlAgentController/install:/home/oem/lgsvlAgentController_v2/kbdReader/install'), ('GROUP_ID', '1000'), ('ADE_CLI_VERSION', '4.4.0'), ('ROS_DISTRO', 'foxy'), ('ADE_IMAGE_FOXY_COMMIT_SHA', '16e087faa219fbbb708c31df636d57021f98fc40'), ('ADE_IMAGE_FOXY_COMMIT_TAG', '2021.3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,display'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_TAG', ''), ('TERM', 'xterm-256color'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_SHA', 'b5fb77ce958db1a3d7b16fda53abf4c0168fc921'), ('ADE_IMAGE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/ade-lgsvl/foxy:2021.3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/lgsvl:/snap/bin'), ('GIT_PS1_SHOWUPSTREAM', 'verbose'), ('GIT_PS1_SHOWDIRTYSTATE', '1'), ('ADE_IMAGE_BINARY_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/binary-foxy:master'), ('VIDEO_GROUP_ID', '44'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('TILIX_ID', '8c6ed36a-23e6-4157-92fe-3fe787748c76'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/oem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/oem/lgsvlAgentController/install/lgsvlAgentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController_v2/install/agentController:/home/oem/lgsvlAgentController_v2/install/KBDReader:/opt/ros/foxy'), ('PROMPT_COMMAND', '__git_ps1 \'${VIRTUAL_ENV:+($(basename "$VIRTUAL_ENV")) }\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\' \'$ \''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PS1_DESCRIBE_STYLE', 'contains'), ('PWD', '/home/oem/lgsvlAgentController_v2/kbdReader/build/KBDReader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/oem/lgsvlAgentController/install/lgsvlAgentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController_v2/install/agentController:/home/oem/lgsvlAgentController_v2/install/KBDReader:/opt/ros/foxy')]), 'shell': False}
+[9.023136] (KBDReader) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[9.023601] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/lib/KBDReader/libKBDReader.so\n'}
+[9.028930] (KBDReader) StdoutLine: {'line': b'-- Set runtime path of "/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/lib/KBDReader/libKBDReader.so" to ""\n'}
+[9.029213] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/lib/KBDReader/KBDReader_node\n'}
+[9.031602] (KBDReader) StdoutLine: {'line': b'-- Set runtime path of "/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/lib/KBDReader/KBDReader_node" to ""\n'}
+[9.031899] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/ament_index/resource_index/package_run_dependencies/KBDReader\n'}
+[9.032243] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/ament_index/resource_index/parent_prefix_path/KBDReader\n'}
+[9.032668] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/environment/ament_prefix_path.sh\n'}
+[9.032976] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/environment/ament_prefix_path.dsv\n'}
+[9.033276] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/environment/path.sh\n'}
+[9.033583] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/environment/path.dsv\n'}
+[9.033787] (-) TimerEvent: {}
+[9.034142] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/local_setup.bash\n'}
+[9.034419] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/local_setup.sh\n'}
+[9.034687] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/local_setup.zsh\n'}
+[9.034925] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/local_setup.dsv\n'}
+[9.035181] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/package.dsv\n'}
+[9.035384] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/ament_index/resource_index/packages/KBDReader\n'}
+[9.035681] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/cmake/KBDReaderConfig.cmake\n'}
+[9.035952] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/cmake/KBDReaderConfig-version.cmake\n'}
+[9.036188] (KBDReader) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader/share/KBDReader/package.xml\n'}
+[9.039683] (KBDReader) CommandEnded: {'returncode': 0}
+[9.134081] (-) TimerEvent: {}
+[9.142007] (KBDReader) JobEnded: {'identifier': 'KBDReader', 'rc': 0}
+[9.143243] (-) EventReactorShutdown: {}

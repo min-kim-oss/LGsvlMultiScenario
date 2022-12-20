@@ -1,0 +1,15 @@
+[0.018s] Invoking command in '/home/oem/lgsvlAgentController_v2/agentController/build/agentController': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/agentController/build/agentController -- -j20 -l20
+[0.119s] [35m[1mScanning dependencies of target AgentController[0m
+[0.165s] [ 12%] [32mBuilding CXX object CMakeFiles/AgentController.dir/src/agentController.cpp.o[0m
+[1.357s] [01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:[m[K In member function ‘[01m[Kvoid AgentController::cmd_creator()[m[K’:
+[1.364s] [01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:121:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcur_brake_input[m[K’
+[1.364s]   121 |   cur_steer_angle = max_steer_angle * (steerKey_hitCount/max_hit_num)
+[1.364s]       |                                                                      [01;31m[K^[m[K
+[1.364s]       |                                                                      [32m[K;[m[K
+[1.364s]   122 | 
+[1.365s]   123 |   [32m[Kcur_brake_input[m[K = max_brake_input * (dKey_hitCount/max_hit_num);
+[1.365s]       |   [32m[K~~~~~~~~~~~~~~~[m[K                                                     
+[2.636s] make[2]: *** [CMakeFiles/AgentController.dir/build.make:63: CMakeFiles/AgentController.dir/src/agentController.cpp.o] Error 1
+[2.637s] make[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/AgentController.dir/all] Error 2
+[2.637s] make: *** [Makefile:141: all] Error 2
+[2.640s] Invoked command in '/home/oem/lgsvlAgentController_v2/agentController/build/agentController' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/agentController/build/agentController -- -j20 -l20

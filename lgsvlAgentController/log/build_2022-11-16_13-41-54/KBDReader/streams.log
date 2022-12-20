@@ -1,0 +1,73 @@
+[0.035s] Invoking command in '/home/oem/lgsvlAgentController_v2/build/KBDReader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/oem/lgsvlAgentController_v2/kbdReader -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/oem/lgsvlAgentController_v2/install/KBDReader
+[0.130s] -- The C compiler identification is GNU 9.4.0
+[0.204s] -- The CXX compiler identification is GNU 9.4.0
+[0.211s] -- Check for working C compiler: /usr/bin/cc
+[0.341s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.341s] -- Detecting C compiler ABI info
+[0.443s] -- Detecting C compiler ABI info - done
+[0.472s] -- Detecting C compile features
+[0.473s] -- Detecting C compile features - done
+[0.477s] -- Check for working CXX compiler: /usr/bin/c++
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.617s] -- Detecting CXX compiler ABI info
+[0.755s] -- Detecting CXX compiler ABI info - done
+[0.781s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.785s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.826s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.826s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.018s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.023s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.072s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.078s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.227s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.267s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.388s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.388s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.389s] -- Looking for pthread.h
+[1.528s] -- Looking for pthread.h - found
+[1.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.647s] -- Looking for pthread_create in pthreads
+[1.756s] -- Looking for pthread_create in pthreads - not found
+[1.757s] -- Looking for pthread_create in pthread
+[1.884s] -- Looking for pthread_create in pthread - found
+[1.887s] -- Found Threads: TRUE  
+[2.096s] WARNING: Package name "KBDReader" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[2.118s] -- Configuring done
+[2.135s] -- Generating done
+[2.136s] -- Build files have been written to: /home/oem/lgsvlAgentController_v2/build/KBDReader
+[2.145s] Invoked command in '/home/oem/lgsvlAgentController_v2/build/KBDReader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/oem/lgsvlAgentController_v2/kbdReader -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/oem/lgsvlAgentController_v2/install/KBDReader
+[2.149s] Invoking command in '/home/oem/lgsvlAgentController_v2/build/KBDReader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/build/KBDReader -- -j20 -l20
+[2.233s] [35m[1mScanning dependencies of target KBDReader[0m
+[2.287s] [ 25%] [32mBuilding CXX object CMakeFiles/KBDReader.dir/src/kbdReader.cpp.o[0m
+[6.711s] [ 50%] [32m[1mLinking CXX shared library libKBDReader.so[0m
+[6.863s] [ 50%] Built target KBDReader
+[6.885s] [35m[1mScanning dependencies of target KBDReader_node[0m
+[6.940s] [ 75%] [32mBuilding CXX object CMakeFiles/KBDReader_node.dir/src/kbdReader_node.cpp.o[0m
+[8.981s] [100%] [32m[1mLinking CXX executable KBDReader_node[0m
+[9.116s] [100%] Built target KBDReader_node
+[9.132s] Invoked command in '/home/oem/lgsvlAgentController_v2/build/KBDReader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/oem/lgsvlAgentController_v2/build/KBDReader -- -j20 -l20
+[9.218s] Invoking command in '/home/oem/lgsvlAgentController_v2/build/KBDReader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/oem/lgsvlAgentController_v2/build/KBDReader
+[9.230s] -- Install configuration: "RelWithDebInfo"
+[9.231s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/lib/KBDReader/libKBDReader.so
+[9.236s] -- Set runtime path of "/home/oem/lgsvlAgentController_v2/install/KBDReader/lib/KBDReader/libKBDReader.so" to ""
+[9.236s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/lib/KBDReader/KBDReader_node
+[9.237s] -- Set runtime path of "/home/oem/lgsvlAgentController_v2/install/KBDReader/lib/KBDReader/KBDReader_node" to ""
+[9.237s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/ament_index/resource_index/package_run_dependencies/KBDReader
+[9.237s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/ament_index/resource_index/parent_prefix_path/KBDReader
+[9.238s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/environment/ament_prefix_path.sh
+[9.238s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/environment/ament_prefix_path.dsv
+[9.238s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/environment/path.sh
+[9.238s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/environment/path.dsv
+[9.239s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/local_setup.bash
+[9.239s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/local_setup.sh
+[9.239s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/local_setup.zsh
+[9.239s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/local_setup.dsv
+[9.239s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/package.dsv
+[9.240s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/ament_index/resource_index/packages/KBDReader
+[9.240s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/cmake/KBDReaderConfig.cmake
+[9.240s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/cmake/KBDReaderConfig-version.cmake
+[9.240s] -- Installing: /home/oem/lgsvlAgentController_v2/install/KBDReader/share/KBDReader/package.xml
+[9.243s] Invoked command in '/home/oem/lgsvlAgentController_v2/build/KBDReader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/oem/lgsvlAgentController_v2/build/KBDReader

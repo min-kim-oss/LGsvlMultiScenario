@@ -1,0 +1,8 @@
+source;share/agentController/hook/cmake_prefix_path.ps1
+source;share/agentController/hook/cmake_prefix_path.dsv
+source;share/agentController/hook/cmake_prefix_path.sh
+source;share/agentController/local_setup.bash
+source;share/agentController/local_setup.dsv
+source;share/agentController/local_setup.ps1
+source;share/agentController/local_setup.sh
+source;share/agentController/local_setup.zsh

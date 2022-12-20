@@ -1,0 +1,4 @@
+source;share/KBDReader/local_setup.bash
+source;share/KBDReader/local_setup.dsv
+source;share/KBDReader/local_setup.sh
+source;share/KBDReader/local_setup.zsh

@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target AgentController[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/AgentController.dir/src/agentController.cpp.o[0m
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:[m[K In constructor ‘[01m[KAgentController::AgentController(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[KrKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+   26 |   [01;31m[KrKey_hitCount[m[K = 0;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+      |   [32m[KuKey_hitCount[m[K
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[KlKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+   27 |   [01;31m[KlKey_hitCount[m[K = 0;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+      |   [32m[KuKey_hitCount[m[K
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:[m[K In member function ‘[01m[Kvoid AgentController::hitRecoverer()[m[K’:
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:58:8:[m[K [01;31m[Kerror: [m[K‘[01m[KrKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+   58 |     if([01;31m[KrKey_hitCount[m[K > 0)
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+      |        [32m[KuKey_hitCount[m[K
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:68:8:[m[K [01;31m[Kerror: [m[K‘[01m[KlKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+   68 |     if([01;31m[KlKey_hitCount[m[K > 0)
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+      |        [32m[KuKey_hitCount[m[K
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:[m[K In member function ‘[01m[Kvoid AgentController::cmd_creator()[m[K’:
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:123:8:[m[K [01;31m[Kerror: [m[K‘[01m[KrKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+  123 |     if([01;31m[KrKey_hitCount[m[K > lKey_hitCount){
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+      |        [32m[KuKey_hitCount[m[K
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:123:24:[m[K [01;31m[Kerror: [m[K‘[01m[KlKey_hitCount[m[K’ was not declared in this scope; did you mean ‘[01m[KuKey_hitCount[m[K’?
+  123 |     if(rKey_hitCount > [01;31m[KlKey_hitCount[m[K){
+      |                        [01;31m[K^~~~~~~~~~~~~[m[K
+      |                        [32m[KuKey_hitCount[m[K
+make[2]: *** [CMakeFiles/AgentController.dir/build.make:63: CMakeFiles/AgentController.dir/src/agentController.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/AgentController.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000591] (agentController) JobQueued: {'identifier': 'agentController', 'dependencies': OrderedDict()}
+[0.000741] (agentController) JobStarted: {'identifier': 'agentController'}
+[0.018141] (agentController) JobProgress: {'identifier': 'agentController', 'progress': 'cmake'}
+[0.019843] (agentController) JobProgress: {'identifier': 'agentController', 'progress': 'build'}
+[0.021163] (agentController) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/oem/lgsvlAgentController_v2/agentController/build/agentController', '--', '-j20', '-l20'], 'cwd': '/home/oem/lgsvlAgentController_v2/agentController/build/agentController', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ADE_IMAGE_ADE_FOXY_COMMIT_TAG', ''), ('ADE_IMAGE_ADE_FOXY_COMMIT_SHA', '1641aaf554d9db02aa000e2062a92c78af651a31'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'oem'), ('USER_ID', '1000'), ('HOSTNAME', 'ade'), ('ADE_IMAGE_ADE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/ade-foxy:master'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib64:/opt/lgsvl/simulator_Data/Plugins'), ('HOME', '/home/oem'), ('OLDPWD', '/home/oem/lgsvlAgentController_v2'), ('ADE_HOME_HOSTPATH', '/home/oem/adehome'), ('ROS_PYTHON_VERSION', '3'), ('GIT_PS1_SHOWUNTRACKEDFILES', '1'), ('COLORTERM', 'truecolor'), ('GROUP', 'oem'), ('GIT_PS1_SHOWSTASHSTATE', '1'), ('GIT_PS1_SHOWCOLORHINTS', '1'), ('TIMEZONE', 'Asia/Seoul'), ('COLCON_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/agentController/install:/home/oem/lgsvlAgentController_v2/kbdReader/install:/home/oem/lgsvlAgentController/install'), ('GROUP_ID', '1000'), ('ADE_CLI_VERSION', '4.4.0'), ('ROS_DISTRO', 'foxy'), ('ADE_IMAGE_FOXY_COMMIT_SHA', '16e087faa219fbbb708c31df636d57021f98fc40'), ('ADE_IMAGE_FOXY_COMMIT_TAG', '2021.3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,display'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_TAG', ''), ('TERM', 'xterm-256color'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_SHA', 'b5fb77ce958db1a3d7b16fda53abf4c0168fc921'), ('ADE_IMAGE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/ade-lgsvl/foxy:2021.3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/lgsvl:/snap/bin'), ('GIT_PS1_SHOWUPSTREAM', 'verbose'), ('GIT_PS1_SHOWDIRTYSTATE', '1'), ('ADE_IMAGE_BINARY_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/binary-foxy:master'), ('VIDEO_GROUP_ID', '44'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('TILIX_ID', '24d92b69-b213-494c-8bff-6cb8e7d970ca'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/oem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/agentController/install/agentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController/install/lgsvlAgentController:/opt/ros/foxy'), ('PROMPT_COMMAND', '__git_ps1 \'${VIRTUAL_ENV:+($(basename "$VIRTUAL_ENV")) }\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\' \'$ \''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PS1_DESCRIBE_STYLE', 'contains'), ('PWD', '/home/oem/lgsvlAgentController_v2/agentController/build/agentController'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/agentController/install/agentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController/install/lgsvlAgentController:/opt/ros/foxy')]), 'shell': False}
+[0.099603] (-) TimerEvent: {}
+[0.110433] (agentController) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target AgentController\x1b[0m\n'}
+[0.142907] (agentController) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/AgentController.dir/src/agentController.cpp.o\x1b[0m\n'}
+[0.199680] (-) TimerEvent: {}
+[0.300021] (-) TimerEvent: {}
+[0.400482] (-) TimerEvent: {}
+[0.500907] (-) TimerEvent: {}
+[0.601323] (-) TimerEvent: {}
+[0.701830] (-) TimerEvent: {}
+[0.802321] (-) TimerEvent: {}
+[0.902826] (-) TimerEvent: {}
+[1.003308] (-) TimerEvent: {}
+[1.103781] (-) TimerEvent: {}
+[1.204308] (-) TimerEvent: {}
+[1.304800] (-) TimerEvent: {}
+[1.405273] (-) TimerEvent: {}
+[1.505756] (-) TimerEvent: {}
+[1.606336] (-) TimerEvent: {}
+[1.706812] (-) TimerEvent: {}
+[1.807304] (-) TimerEvent: {}
+[1.907845] (-) TimerEvent: {}
+[2.008243] (-) TimerEvent: {}
+[2.108712] (-) TimerEvent: {}
+[2.209178] (-) TimerEvent: {}
+[2.309670] (-) TimerEvent: {}
+[2.410126] (-) TimerEvent: {}
+[2.510667] (-) TimerEvent: {}
+[2.611159] (-) TimerEvent: {}
+[2.711535] (-) TimerEvent: {}
+[2.811961] (-) TimerEvent: {}
+[2.912302] (-) TimerEvent: {}
+[3.012654] (-) TimerEvent: {}
+[3.113215] (-) TimerEvent: {}
+[3.213685] (-) TimerEvent: {}
+[3.314132] (-) TimerEvent: {}
+[3.414647] (-) TimerEvent: {}
+[3.515005] (-) TimerEvent: {}
+[3.615433] (-) TimerEvent: {}
+[3.715935] (-) TimerEvent: {}
+[3.816427] (-) TimerEvent: {}
+[3.916890] (-) TimerEvent: {}
+[4.017373] (-) TimerEvent: {}
+[4.117767] (-) TimerEvent: {}
+[4.218294] (-) TimerEvent: {}
+[4.319051] (-) TimerEvent: {}
+[4.419510] (-) TimerEvent: {}
+[4.519905] (-) TimerEvent: {}
+[4.620272] (-) TimerEvent: {}
+[4.720644] (-) TimerEvent: {}
+[4.821027] (-) TimerEvent: {}
+[4.921486] (-) TimerEvent: {}
+[5.021886] (-) TimerEvent: {}
+[5.122270] (-) TimerEvent: {}
+[5.222680] (-) TimerEvent: {}
+[5.323151] (-) TimerEvent: {}
+[5.423618] (-) TimerEvent: {}
+[5.524105] (-) TimerEvent: {}
+[5.624574] (-) TimerEvent: {}
+[5.725041] (-) TimerEvent: {}
+[5.825494] (-) TimerEvent: {}
+[5.925832] (-) TimerEvent: {}
+[6.026288] (-) TimerEvent: {}
+[6.126724] (-) TimerEvent: {}
+[6.227260] (-) TimerEvent: {}
+[6.327741] (-) TimerEvent: {}
+[6.428189] (-) TimerEvent: {}
+[6.528691] (-) TimerEvent: {}
+[6.629212] (-) TimerEvent: {}
+[6.729718] (-) TimerEvent: {}
+[6.830203] (-) TimerEvent: {}
+[6.930802] (-) TimerEvent: {}
+[7.031271] (-) TimerEvent: {}
+[7.131864] (-) TimerEvent: {}
+[7.232425] (-) TimerEvent: {}
+[7.332864] (-) TimerEvent: {}
+[7.433377] (-) TimerEvent: {}
+[7.533809] (-) TimerEvent: {}
+[7.634366] (-) TimerEvent: {}
+[7.734907] (-) TimerEvent: {}
+[7.835358] (-) TimerEvent: {}
+[7.935772] (-) TimerEvent: {}
+[8.036289] (-) TimerEvent: {}
+[8.136758] (-) TimerEvent: {}
+[8.237231] (-) TimerEvent: {}
+[8.337685] (-) TimerEvent: {}
+[8.438421] (-) TimerEvent: {}
+[8.538841] (-) TimerEvent: {}
+[8.639312] (-) TimerEvent: {}
+[8.739798] (-) TimerEvent: {}
+[8.840280] (-) TimerEvent: {}
+[8.940757] (-) TimerEvent: {}
+[9.041298] (-) TimerEvent: {}
+[9.141673] (-) TimerEvent: {}
+[9.242153] (-) TimerEvent: {}
+[9.342652] (-) TimerEvent: {}
+[9.443120] (-) TimerEvent: {}
+[9.543510] (-) TimerEvent: {}
+[9.644045] (-) TimerEvent: {}
+[9.744493] (-) TimerEvent: {}
+[9.844949] (-) TimerEvent: {}
+[9.945418] (-) TimerEvent: {}
+[10.045792] (-) TimerEvent: {}
+[10.146179] (-) TimerEvent: {}
+[10.186860] (agentController) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libAgentController.so\x1b[0m\n'}
+[10.246313] (-) TimerEvent: {}
+[10.346758] (-) TimerEvent: {}
+[10.416245] (agentController) StdoutLine: {'line': b'[ 25%] Built target AgentController\n'}
+[10.433583] (agentController) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target AgentController_node\x1b[0m\n'}
+[10.446893] (-) TimerEvent: {}
+[10.463858] (agentController) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libP2AgentController.so\x1b[0m\n'}
+[10.468474] (agentController) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/AgentController_node.dir/src/agentController_node.cpp.o\x1b[0m\n'}
+[10.547024] (-) TimerEvent: {}
+[10.647470] (-) TimerEvent: {}
+[10.664476] (agentController) StdoutLine: {'line': b'[ 62%] Built target P2AgentController\n'}
+[10.721934] (agentController) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable P2AgentController_node\x1b[0m\n'}
+[10.747605] (-) TimerEvent: {}
+[10.848063] (-) TimerEvent: {}
+[10.879758] (agentController) StdoutLine: {'line': b'[ 87%] Built target P2AgentController_node\n'}
+[10.948212] (-) TimerEvent: {}
+[11.048761] (-) TimerEvent: {}
+[11.149222] (-) TimerEvent: {}
+[11.249742] (-) TimerEvent: {}
+[11.351227] (-) TimerEvent: {}
+[11.451654] (-) TimerEvent: {}
+[11.552150] (-) TimerEvent: {}
+[11.652621] (-) TimerEvent: {}
+[11.753087] (-) TimerEvent: {}
+[11.853568] (-) TimerEvent: {}
+[11.954008] (-) TimerEvent: {}
+[12.054453] (-) TimerEvent: {}
+[12.154892] (-) TimerEvent: {}
+[12.255346] (-) TimerEvent: {}
+[12.355829] (-) TimerEvent: {}
+[12.456336] (-) TimerEvent: {}
+[12.556789] (-) TimerEvent: {}
+[12.657262] (-) TimerEvent: {}
+[12.757745] (-) TimerEvent: {}
+[12.781978] (agentController) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable AgentController_node\x1b[0m\n'}
+[12.857925] (-) TimerEvent: {}
+[12.922732] (agentController) StdoutLine: {'line': b'[100%] Built target AgentController_node\n'}
+[12.940650] (agentController) CommandEnded: {'returncode': 0}
+[12.958205] (-) TimerEvent: {}
+[13.010250] (agentController) JobProgress: {'identifier': 'agentController', 'progress': 'install'}
+[13.025514] (agentController) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/oem/lgsvlAgentController_v2/agentController/build/agentController'], 'cwd': '/home/oem/lgsvlAgentController_v2/agentController/build/agentController', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ADE_IMAGE_ADE_FOXY_COMMIT_TAG', ''), ('ADE_IMAGE_ADE_FOXY_COMMIT_SHA', '1641aaf554d9db02aa000e2062a92c78af651a31'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'oem'), ('USER_ID', '1000'), ('HOSTNAME', 'ade'), ('ADE_IMAGE_ADE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/ade-foxy:master'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib64:/opt/lgsvl/simulator_Data/Plugins'), ('HOME', '/home/oem'), ('OLDPWD', '/home/oem/lgsvlAgentController_v2'), ('ADE_HOME_HOSTPATH', '/home/oem/adehome'), ('ROS_PYTHON_VERSION', '3'), ('GIT_PS1_SHOWUNTRACKEDFILES', '1'), ('COLORTERM', 'truecolor'), ('GROUP', 'oem'), ('GIT_PS1_SHOWSTASHSTATE', '1'), ('GIT_PS1_SHOWCOLORHINTS', '1'), ('TIMEZONE', 'Asia/Seoul'), ('COLCON_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/agentController/install:/home/oem/lgsvlAgentController_v2/kbdReader/install:/home/oem/lgsvlAgentController/install'), ('GROUP_ID', '1000'), ('ADE_CLI_VERSION', '4.4.0'), ('ROS_DISTRO', 'foxy'), ('ADE_IMAGE_FOXY_COMMIT_SHA', '16e087faa219fbbb708c31df636d57021f98fc40'), ('ADE_IMAGE_FOXY_COMMIT_TAG', '2021.3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,display'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_TAG', ''), ('TERM', 'xterm-256color'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_SHA', 'b5fb77ce958db1a3d7b16fda53abf4c0168fc921'), ('ADE_IMAGE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/ade-lgsvl/foxy:2021.3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/lgsvl:/snap/bin'), ('GIT_PS1_SHOWUPSTREAM', 'verbose'), ('GIT_PS1_SHOWDIRTYSTATE', '1'), ('ADE_IMAGE_BINARY_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/binary-foxy:master'), ('VIDEO_GROUP_ID', '44'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('TILIX_ID', '24d92b69-b213-494c-8bff-6cb8e7d970ca'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/oem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/agentController/install/agentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController/install/lgsvlAgentController:/opt/ros/foxy'), ('PROMPT_COMMAND', '__git_ps1 \'${VIRTUAL_ENV:+($(basename "$VIRTUAL_ENV")) }\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\' \'$ \''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PS1_DESCRIBE_STYLE', 'contains'), ('PWD', '/home/oem/lgsvlAgentController_v2/agentController/build/agentController'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/oem/lgsvlAgentController_v2/agentController/install/agentController:/home/oem/lgsvlAgentController_v2/kbdReader/install/KBDReader:/home/oem/lgsvlAgentController/install/lgsvlAgentController:/opt/ros/foxy')]), 'shell': False}
+[13.040401] (agentController) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[13.040828] (agentController) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/libAgentController.so\n'}
+[13.045733] (agentController) StdoutLine: {'line': b'-- Set runtime path of "/home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/libAgentController.so" to ""\n'}
+[13.046236] (agentController) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/AgentController_node\n'}
+[13.046727] (agentController) StdoutLine: {'line': b'-- Set runtime path of "/home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/AgentController_node" to ""\n'}
+[13.047044] (agentController) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/libP2AgentController.so\n'}
+[13.052670] (agentController) StdoutLine: {'line': b'-- Set runtime path of "/home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/libP2AgentController.so" to ""\n'}
+[13.053134] (agentController) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/P2AgentController_node\n'}
+[13.053870] (agentController) StdoutLine: {'line': b'-- Set runtime path of "/home/oem/lgsvlAgentController_v2/agentController/install/agentController/lib/agentController/P2AgentController_node" to ""\n'}
+[13.054160] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/ament_index/resource_index/package_run_dependencies/agentController\n'}
+[13.054423] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/ament_index/resource_index/parent_prefix_path/agentController\n'}
+[13.054879] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/environment/ament_prefix_path.sh\n'}
+[13.055113] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/environment/ament_prefix_path.dsv\n'}
+[13.055275] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/environment/path.sh\n'}
+[13.055487] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/environment/path.dsv\n'}
+[13.055734] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/local_setup.bash\n'}
+[13.055990] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/local_setup.sh\n'}
+[13.056241] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/local_setup.zsh\n'}
+[13.056409] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/local_setup.dsv\n'}
+[13.056913] (agentController) StdoutLine: {'line': b'-- Installing: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/package.dsv\n'}
+[13.057613] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/ament_index/resource_index/packages/agentController\n'}
+[13.059712] (-) TimerEvent: {}
+[13.061330] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/cmake/agentControllerConfig.cmake\n'}
+[13.062842] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/cmake/agentControllerConfig-version.cmake\n'}
+[13.063278] (agentController) StdoutLine: {'line': b'-- Up-to-date: /home/oem/lgsvlAgentController_v2/agentController/install/agentController/share/agentController/package.xml\n'}
+[13.063510] (agentController) CommandEnded: {'returncode': 0}
+[13.163264] (-) TimerEvent: {}
+[13.182688] (agentController) JobEnded: {'identifier': 'agentController', 'rc': 0}
+[13.184024] (-) EventReactorShutdown: {}

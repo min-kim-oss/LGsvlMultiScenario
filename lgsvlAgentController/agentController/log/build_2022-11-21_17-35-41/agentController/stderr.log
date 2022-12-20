@@ -1,0 +1,11 @@
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:[m[K In member function ‘[01m[Kvoid AgentController::cmd_creator()[m[K’:
+[01m[K/home/oem/lgsvlAgentController_v2/agentController/src/agentController.cpp:121:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcur_brake_input[m[K’
+  121 |   cur_steer_angle = max_steer_angle * (steerKey_hitCount/max_hit_num)
+      |                                                                      [01;31m[K^[m[K
+      |                                                                      [32m[K;[m[K
+  122 | 
+  123 |   [32m[Kcur_brake_input[m[K = max_brake_input * (dKey_hitCount/max_hit_num);
+      |   [32m[K~~~~~~~~~~~~~~~[m[K                                                     
+make[2]: *** [CMakeFiles/AgentController.dir/build.make:63: CMakeFiles/AgentController.dir/src/agentController.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/AgentController.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
